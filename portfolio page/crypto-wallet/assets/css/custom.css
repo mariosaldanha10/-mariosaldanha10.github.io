@@ -134,7 +134,43 @@
 }
 
 /* Global font */
-body { font-family: var(--global-font) }
+body { font-family: 'Outfit', sans-serif}
+
+
+/* ========= THEME ONE ========== */
+
+/* Background colour */
+.container-menu a:link,
+.container-menu a:visited { color: var(--white-000) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--blue-100) }
+.container-menu.menu-desktop { background-color: var(--trans-000) }
+.container-menu.menu-mobile { background-color: var(--trans-000) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--red-500) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { color: var(--red-200) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { background-color: var(--red-500) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--red-600) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { border-color: var(--red-500) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { border-color: var(--red-600) }
+.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-900) }
+.container-menu .item-icon .bar1,.container-menu .item-icon .bar2,.container-menu .item-icon .bar3 { background-color: var(--white-000) }
+
+
+.theme-one .col-1 h3 { color: var(--gray-700) }
 
 header.hero-block a.btn-primary:link,
 header.hero-block a.btn-primary:visited { border-color: var(--ontrend-700) }
@@ -169,7 +205,7 @@ header.hero-block a.btn-primary:active { border-color: var(--ontrend-700) }
 .theme-three .col-2 p { color: var(--white-000) }
 .theme-three .col-2 li { color: var(--white-000) }
 
-.theme-four { background-color: var(--ontrend-700) }
+.theme-four { background-color: var(--ontrend-800) }
 .theme-four .col-2 h2 { color: var(--white-000) }
 .theme-four .col-2 p { color: var(--white-000) }
 .theme-four .col-2 li { color: var(--white-000) }
